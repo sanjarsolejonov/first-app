@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.container .navbar .box {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(52, 42, 187);
+}
+.container .navbar{
+    position: fixed;
+    left: 50px;
+    top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.container .navbar button {
+    width:50px ;
+    height:30px ;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.container .navbar .one {
+    color: blue;
+}
+.container .navbar .one:hover{
+    color: aliceblue;
+    background-color: blue;
+    transform: rotateY(50px);
+} 
+
+.container .navbar .two:hover{
+    color: aliceblue;
+    background-color: rgb(37, 124, 231);
+    transform: rotateY(50px);
+} 
+.container .navbar .three:hover{
+    color: aliceblue;
+    background-color: rgb(221, 113, 31);
+    transform: rotateY(50px);
+} 
+.container .navbar .four:hover{
+    color: aliceblue;
+    background-color: rgb(227, 22, 145);
+    transform: rotateY(50px);
+} 
+
+.container .navbar .five:hover{
+    color: aliceblue;
+    background-color:rgba(21, 46, 214, 0.891) ;
+    transform: rotateY(50px);
+} 
